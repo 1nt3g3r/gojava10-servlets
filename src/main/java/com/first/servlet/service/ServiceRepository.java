@@ -15,6 +15,8 @@ public class ServiceRepository {
         register(new QuoteService());
         register(new LanguageDetectService());
         register(new SecurityService());
+        register(new HibernateService());
+        register(new CrudRepositoryService());
     }
 
     private void register(Object service) {
